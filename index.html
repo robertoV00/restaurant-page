@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <span class="nav__logo">Bob's Burgers</span>
+        <div>
+            <a href="#home" class="nav__link">Home</a>
+            <a href="#about" class="nav__link">About Us</a>
+            <a href="#menu" class="nav__link">Menu</a>
+            <a href="#contact" class="nav__link">
+                <button class="nav__link__button">
+                    Contact
+                </button>
+            </a>
+        </div>
+    </nav>
+    
+    <header id="home">
+        <h1 class="home__title">Bob's Burgers</h1>
+        <p class="home__paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum at voluptate pariatur saepe minima, ab nesciunt atque laudantium deserunt.
+        </p>
+        <button class="home__button">
+            Contact Us
+        </button>
+    </header>
+        
+        <main>
+            <section id="about">
+                <img class="about__image" src="about-image.png" alt="about-img">
+                <div class="about__wrapper">
+                    <h2 class="about__title">About Us</h2>
+                    <p class="about_paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dicta atque placeat consequuntur minima, magni necessitatibus beatae quidem doloribus recusandae temporibus tenetur veniam porro ullam blanditiis quis molestias quia non.
+                    </p>
+                    <button class="about_button">Learn More</button>
+                </div>
+            </section>
+            
+            <section id="menu">
+                <div class="menu_wrapper">
+                    <h2 class="menu_title">Menu</h2>
+                    <p class="menu_paragraph">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur rerum eligendi in! Vel quos odit eius, perspiciatis inventore voluptatibus ipsa accusamus quam dolor ex, sequi provident quibusdam eaque corporis blanditiis!
+                    </p>
+                    <button class="menu_button">Learn More</button>
+                </div>
+                <img class="menu_image" src="menu-image.png" alt="menu-img">
+            </section>
+
+            <section id="contact">
+                <h2 class="contact_title">Contact</h2>
+                <form class="contact_form">
+                    <label for="">Name</label>
+                    <input type="text" class="contact_form_input">
+                    <label for="">Email</label>
+                    <input type="email" class="contact_form_input">
+                    <label for="">Message</label>
+                    <textarea class="contact_form_textarea"></textarea>
+                    <button class="contact_form_button">Send</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <a href="#home" class="footer_link">Home</a>
+            <a href="#about" class="footer_link">About</a>
+            <a href="#menu" class="footer_link">Menu</a>
+            <a href="#contact" class="footer_link">Contact</a>
+        </footer>
+</body>
+</html>
